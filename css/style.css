@@ -1,0 +1,48 @@
+/* ----------------------------------------Document style variables---------------------------------------------------------------- */
+:root {
+  --link-color: #002984;
+  --hover-link-color: #fb9a00;
+  --navbar-txt-color: #002984;
+  --navbar-bg-color: #fff;
+  --cta-bg-color: #30b300;
+  --cta-txt-color: #fff;
+}
+
+/* ----------------------------------------All document---------------------------------------------------------------- */
+.custom-link {
+  text-decoration: none;
+  color: var(--link-color);
+  margin: 1rem;
+}
+
+.all-content {
+  font-family: "Noto Sans Jp", sans-serif;
+  max-width: 1310px;
+  position: relative;
+}
+
+.cta {
+  background-color: var(--cta-bg-color);
+  color: var(--cta-txt-color);
+}
+
+/* ----------------------------------------Navbar---------------------------------------------------------------- */
+.custom-navbar {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-txt-color);
+}
+
+.menu {
+  color: var(--navbar-txt-color);
+  border: 1.5px solid var(--navbar-txt-color);
+}
+
+.navbar-logo {
+  min-width: 125px;
+}
+
+/* ----------------------------------------Hovering effects---------------------------------------------------------------- */
+.custom-link:hover {
+  text-decoration: underline;
+  color: var(--hover-link-color);
+}

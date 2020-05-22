@@ -2,11 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mind Click</title>
-</head>
-<body>
     
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Mind Click</title>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./img/Logo-mindclick-1.png" />
+</head>
+<body class="container-fluid all-content">
+    
+    <div class="row">
+        <nav class="navbar col-12 navbar-expand-lg custom-navbar d-flex flex-row align-items-center sticky-top shadow-sm px-1 flex-nowrap">
+            <!-- brand logo -->
+            <a href="./index.html"><img src="./img/Logo-mindclick-2.png" alt="Logo" class="navbar-logo w-25"></a>
+
+            <div class="collapse navbar-collapse mr-1 d-none d-lg-block">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="/index.html" class="custom-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/directory.html" class="custom-link">Therapists</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle custom-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item custom-link" href="#">History</a>
+                            <a class="dropdown-item custom-link" href="#">Team</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item custom-link" href="https://mindclick.typeform.com/to/L3jwLN">Join as a Therapist!</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <button class="btn btn-sm cta text-nowrap rounder-top rounded-bottom" href="https://mindclick.typeform.com/to/oVC1Y1">Find a therapist now!</button>
+
+            <!-- Menu -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="material-icons menu rounded-top rounded-bottom">menu</span>
+            </button>
+        </nav>
+
+        <div class="col-12 d-lg-none collapse px-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active my-2">
+                    <a href="/index.html" class="custom-link ml-2">Home</a>
+                </li>
+                <li class="nav-item my-2 mx-0">
+                    <a href="/directory.html" class="custom-link ml-2">Therapists</a>
+                </li>
+                <li class="nav-item dropdown my-2">
+                    <a class="custom-link dropdown-toggle ml-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item custom-link" href="#">History</a>
+                        <a class="dropdown-item custom-link" href="#">Team</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item custom-link" href="https://mindclick.typeform.com/to/L3jwLN">Join as a Therapist!</a>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+
+
+
 </body>
 </html>
