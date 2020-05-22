@@ -6,6 +6,10 @@
   --navbar-bg-color: #fff;
   --cta-bg-color: #30b300;
   --cta-txt-color: #fff;
+  --hero-txt-color: #002984;
+  --hero-btn-color: #118bfc;
+  --content-header-color: #118bfc;
+  --content-p-color: #462936;
 }
 
 /* ----------------------------------------All document---------------------------------------------------------------- */
@@ -41,8 +45,92 @@
   min-width: 125px;
 }
 
+/* ----------------------------------------Hero Section---------------------------------------------------------------- */
+.hero-section {
+  margin-top: 0.5rem;
+  background-image: linear-gradient(to bottom, transparent 1%, #e5e5e5e5 50%, transparent 100%), url("../img/Hero-img.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 18rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  color: var(--hero-txt-color);
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  padding: 0.25rem 0 0.5rem;
+  font-weight: bold;
+}
+
+.hero-section h3 {
+  font-size: 1.25rem;
+  padding: 0.25rem 0 0.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.hero-section-cta {
+  background-color: var(--hero-btn-color);
+  color: var(--cta-txt-color);
+}
+
+/* ----------------------------------------How Section---------------------------------------------------------------- */
+.how-title {
+  font-size: 1.5rem;
+  color: var(--content-header-color);
+  font-weight: 500;
+}
+
+.how-section i {
+  color: var(--content-p-color);
+}
+
+.how-content-title {
+  color: var(--content-header-color);
+  font-size: 2rem;
+}
+
+.how-content-text {
+  color: var(--content-p-color);
+  font-size: 1rem;
+}
+
+.how-img {
+  background-image: url("../img/How-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 /* ----------------------------------------Hovering effects---------------------------------------------------------------- */
 .custom-link:hover {
   text-decoration: underline;
   color: var(--hover-link-color);
+}
+
+/* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .hero-section {
+    min-height: 20rem;
+  }
+}
+
+/* ----------------------------------------Laptop media Query---------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .hero-section {
+    padding: 8rem 2rem 5rem;
+    min-height: 30rem;
+  }
+
+  .hero-section h1 {
+    font-size: 4rem;
+  }
+
+  .hero-section h3 {
+    font-size: 2rem;
+  }
+
+  .how-title {
+    font-size: 3.5rem;
+  }
 }
