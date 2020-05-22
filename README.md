@@ -14,7 +14,7 @@ As part of a business idea called Mind Click we want to create an online therapi
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](https://raw.githack.com/santiagorodriguezbermudez/mindclickdirectory/develop/index.html)
 
 ## Getting Started
 
