@@ -129,6 +129,28 @@
   background-image: url("../img/Testimonial-3.jpeg");
 }
 
+/* ----------------------------------------Catch phrase effects---------------------------------------------------------------- */
+.phrase-section {
+  margin-top: 1rem;
+  background-image: linear-gradient(to bottom, transparent 1%, #000 100%), url("../img/Quote-img.jpg");
+  background-position: bottom;
+  background-size: cover;
+  min-height: 18rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  color: white;
+}
+
+.phrase-section h1 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.phrase-section h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
 /* ----------------------------------------Hovering effects---------------------------------------------------------------- */
 .custom-link:hover {
   text-decoration: underline;
