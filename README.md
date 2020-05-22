@@ -1,57 +1,33 @@
 # Project Name
 
-> One paragraph statement about the project.
+> Create an online directory for mental health therapists
 
-![screenshot](./app_screenshot.png)
+<!-- ![screenshot](./app_screenshot.png) -->
 
-Additional description about the project and its features.
+As part of a business idea called Mind Click we want to create an online therapist directory for people to search for mental health specialist and book a session with them. 
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Bootstrap V4.4
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+<!-- [Live Demo Link](https://livedemo.com) -->
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Santiago Rodriguez B.**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@santiagorodriguezbermudez](https://github.com/santiagorodriguezbermudez)
+- Twitter: [@srba87](https://twitter.com/srba87)
+- Linkedin: [@srba87](https://linkedin.com/srba87)
 
 ## 🤝 Contributing
 
@@ -65,10 +41,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- MV team for the ideas
+- Mind Click team for the project ideas
+- Mentor Daniel Santander for the project guidelines
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+Creative commons license for the design: [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
