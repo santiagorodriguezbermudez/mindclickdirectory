@@ -10,6 +10,7 @@
   --hero-btn-color: #118bfc;
   --content-header-color: #118bfc;
   --content-p-color: #462936;
+  --testimonials-bg: #118bfc;
 }
 
 /* ----------------------------------------All document---------------------------------------------------------------- */
@@ -100,6 +101,32 @@
   background-image: url("../img/How-img.jpg");
   background-size: cover;
   background-position: center;
+}
+
+/* ----------------------------------------Testimonials Section---------------------------------------------------------------- */
+.testimonials {
+  background-color: var(--testimonials-bg);
+  color: white;
+}
+
+.testimonial-img-size {
+  height: 128px;
+  width: 128px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.testimonial-img-1 {
+  background-image: url("../img/Testimonial-1.jpeg");
+}
+
+.testimonial-img-2 {
+  background-image: url("../img/Testimonial-2.jpeg");
+}
+
+.testimonial-img-3 {
+  background-image: url("../img/Testimonial-3.jpeg");
 }
 
 /* ----------------------------------------Hovering effects---------------------------------------------------------------- */
