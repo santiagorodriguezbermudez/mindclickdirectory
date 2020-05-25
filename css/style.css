@@ -12,6 +12,7 @@
   --content-p-color: #462936;
   --testimonials-bg: #118bfc;
   --d-hero-search-bg: rgb(48, 179, 0, 0.4);
+  --d-therapist-title: #f94d03;
 }
 
 /* ----------------------------------------All document---------------------------------------------------------------- */
@@ -239,10 +240,23 @@
   font-weight: bold;
 }
 
+.therapists-card-name {
+  font-size: 1.5rem;
+  color: var(--d-therapist-title);
+}
+
+.therapists-card-description {
+  line-height: 1.7rem;
+}
+
 /* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
 @media (min-width: 768px) {
   .d-hero-section {
     min-height: 20rem;
+  }
+
+  .therapists-card-content {
+    margin-left: 2rem;
   }
 }
 
