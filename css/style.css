@@ -144,6 +144,10 @@
   line-height: 1.5rem;
 }
 
+.testimonials h2 {
+  font-size: 3rem;
+}
+
 /* ----------------------------------------Catch phrase effects---------------------------------------------------------------- */
 .phrase-section {
   margin-top: 1rem;
