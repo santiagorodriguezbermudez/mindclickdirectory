@@ -3,7 +3,9 @@
 > Create an online directory of mental health therapists for Microverse Curriculum.
 
 ![screenshot](./img/app_screenshot.png)
+
 ![screenshot](./img/app_screenshot1.png)
+
 ![screenshot](./img/app_screenshot2.png)
 
 As part of a business idea called Mind Click we want to create an online therapist directory for people to search for mental health specialist and book a session with them. 
