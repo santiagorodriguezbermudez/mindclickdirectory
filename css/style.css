@@ -135,13 +135,22 @@
   background-image: url("../img/Testimonial-3.jpeg");
 }
 
+.testimonial-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.testimonial-p {
+  line-height: 1.5rem;
+}
+
 /* ----------------------------------------Catch phrase effects---------------------------------------------------------------- */
 .phrase-section {
   margin-top: 1rem;
   background-image: linear-gradient(to bottom, transparent 1%, #000 100%), url("../img/Quote-img.jpg");
   background-position: bottom;
   background-size: cover;
-  min-height: 18rem;
+  min-height: 25rem;
   padding: 5rem 1rem 3rem;
   text-align: center;
   color: white;
