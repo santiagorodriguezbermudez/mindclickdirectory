@@ -13,6 +13,7 @@
   --testimonials-bg: #118bfc;
   --d-hero-search-bg: rgb(48, 179, 0, 0.4);
   --d-therapist-title: #f94d03;
+  --footer-icons: #f9144e;
 }
 
 /* ----------------------------------------All document---------------------------------------------------------------- */
@@ -173,21 +174,51 @@
   line-height: 1.5rem;
 }
 
+/* ----------------------------------------Footer section---------------------------------------------------------------- */
+.footer-icons {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  color: #f8f8f8;
+  padding: 15px;
+}
+
+.footer-icons i {
+  margin: 5px;
+  border: solid var(--footer-icons) 1px;
+  border-radius: 50%;
+  background-color: var(--footer-icons);
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 25%;
+  margin: 2rem auto;
+}
+
 /* ----------------------------------------Hovering effects---------------------------------------------------------------- */
 .custom-link:hover {
   text-decoration: underline;
   color: var(--hover-link-color);
 }
 
-/* ----------------------------------------Footer effects---------------------------------------------------------------- */
-.footer-img {
-  height: 32px;
+.footer-icons i:hover {
+  background-color: transparent;
+  color: var(--link-color);
 }
 
 /* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
 @media (min-width: 768px) {
   .hero-section {
     min-height: 20rem;
+  }
+
+  .footer-logo {
+    width: 10%;
   }
 }
 
