@@ -28,11 +28,11 @@
 
             <div class="collapse navbar-collapse mr-1 d-none d-lg-block">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a href="/index.html" class="custom-link">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="/directory.html" class="custom-link">Therapists</a>
+                    <li class="nav-item active">
+                        <a href="/directory.html" class="custom-link active">Therapists</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="dropdown-toggle custom-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -82,10 +82,15 @@
 
     <!-- Hero section -->
     <header class="row">
-        <div class="col-12 hero-section d-flex flex-column align-items-center justify-content-between shadow">
-            <h1>Find your happiness and balance</h1>
-            <h3>Connect with your perfect therapist. Online 100%.</h3>
-            <a class="btn btn-lg rounded-bottom rounded-top hero-section-cta shadow-lg" href="https://mindclick.typeform.com/to/oVC1Y1" target="_blank">Match me!</a>
+        <div class="col-12 d-hero-section d-flex flex-column shadow">
+            <div class="d-hero-search-bar m-auto p-3 rounded-bottom rounded-top">
+                <h2 class="my-3">Search your therapist</h2>
+                <div class="my-5 search-section d-flex flex-row flex-nowrap position-relative justify-content-center align-items-center">
+                    <input class="border-0 rounded-pill w-50 pl-2" type="text">
+                    <span class="material-icons">search</span>
+                </div>
+                <button class="btn btn-block w-50 p-1 m-auto rounded-pill hero-section-cta shadow-lg" href="https://mindclick.typeform.com/to/oVC1Y1" target="_blank">Find my therapist!</button>
+            </div>
         </div>
     </header>
 

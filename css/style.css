@@ -11,6 +11,7 @@
   --content-header-color: #118bfc;
   --content-p-color: #462936;
   --testimonials-bg: #118bfc;
+  --d-hero-search-bg: rgb(48, 179, 0, 0.4);
 }
 
 /* ----------------------------------------All document---------------------------------------------------------------- */
@@ -206,5 +207,53 @@
 
   .how-title {
     font-size: 3.5rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------Directory Style--------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------Hero Section---------------------------------------------------------------- */
+.d-hero-section {
+  margin-top: 0.5rem;
+  background-image: url("../img/Directory-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 18rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  color: var(--hero-txt-color);
+}
+
+.d-hero-search-bar {
+  background-color: var(--d-hero-search-bg);
+}
+
+.search-section span {
+  position: absolute;
+  right: 26%;
+}
+
+.d-hero-section h2 {
+  font-size: 2rem;
+  padding: 0.25rem 0 0.5rem;
+  font-weight: bold;
+}
+
+/* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .d-hero-section {
+    min-height: 20rem;
+  }
+}
+
+/* ----------------------------------------Laptop media Query---------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .d-hero-section {
+    padding: 8rem 2rem 5rem;
+    min-height: 30rem;
+  }
+
+  .d-hero-section h2 {
+    font-size: 4rem;
   }
 }
