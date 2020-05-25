@@ -342,13 +342,13 @@
   font-size: 2rem;
   color: var(--therapist-description-header);
   border-bottom: solid var(--therapist-description-header) 1px;
-  margin: 1rem 3rem 2rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 .therapist-info-description {
   font-size: 1rem;
   color: var(--therapist-description-p);
-  margin: 3rem 3rem 3rem 0;
+  margin: 3rem 0;
 }
 
 .therapist-info {
@@ -381,6 +381,14 @@
     position: sticky;
     bottom: 1rem;
     align-self: flex-end;
+  }
+
+  .therapist-info-description {
+    margin: 3rem 3rem 3rem 0;
+  }
+
+  .therapist-info-header {
+    margin: 1rem 0 2rem 0;
   }
 }
 
