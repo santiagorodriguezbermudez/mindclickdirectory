@@ -16,9 +16,14 @@ As part of a business idea called Mind Click we want to create an online therapi
 - CSS,
 - Bootstrap V4.4
 
+## Video Presentation
+[See video here!](https://www.loom.com/share/852e4da24d9641c2b5ef98480563f829)
+
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/santiagorodriguezbermudez/mindclickdirectory/develop/index.html)
+
+
 
 ## Getting Started
 
