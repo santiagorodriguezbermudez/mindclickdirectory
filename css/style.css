@@ -350,6 +350,10 @@
   list-style: circle;
 }
 
+.therapist-comments {
+  line-height: 1.3rem;
+}
+
 /* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
 @media (min-width: 768px) {
   .profile-header {
