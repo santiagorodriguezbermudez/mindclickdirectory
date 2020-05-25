@@ -302,3 +302,44 @@
     font-size: 4rem;
   }
 }
+
+
+/* ---------------------------------------------------------------------------Therapist Style--------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------Hero Section---------------------------------------------------------------- */
+.profile-header {
+  margin-top: 0.5rem;
+  min-height: 18rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  color: var(--hero-txt-color);
+}
+
+.profile-header h1 {
+  font-size: 2rem;
+  padding: 0.25rem 0 0.5rem;
+  font-weight: 500;
+}
+
+/* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .profile-header {
+    min-height: 20rem;
+  }
+
+  .therapists-card-content {
+    margin-left: 2rem;
+  }
+}
+
+/* ----------------------------------------Laptop media Query---------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .profile-header {
+    padding: 8rem 2rem 5rem;
+    min-height: 30rem;
+  }
+
+  .profile-header h1 {
+    font-size: 6rem;
+  }
+}
