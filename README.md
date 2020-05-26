@@ -2,7 +2,7 @@
 
 > Create an online directory of mental health therapists for Microverse Curriculum.
 
-![screenshot](./img/app_screenshot.png)
+![screenshot](./img/app_screenshot0.png)
 
 ![screenshot](./img/app_screenshot1.png)
 
