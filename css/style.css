@@ -1,0 +1,411 @@
+/* ----------------------------------------Document style variables---------------------------------------------------------------- */
+:root {
+  --link-color: #f5dad4;
+  --hover-link-color: #509bd8;
+  --navbar-txt-color: #f5dad4;
+  --navbar-bg-color: #d55648;
+  --cta-bg-color: #cbccd2;
+  --cta-txt-color: #000;
+  --hero-txt-color: #000;
+  --hero-btn-color: #cbccd2;
+  --content-header-color: #e17e65;
+  --content-p-color: #d55648;
+  --testimonials-bg: #3f3f3f;
+  --d-hero-search-bg: #98a5a6;
+  --d-therapist-title: #e27f64;
+  --footer-icons: #509bd8;
+  --footer-bg: #000;
+  --therapist-description-header: #5098bd;
+  --therapist-description-p: #fff;
+  --therapist-description-container: #98a5a6;
+}
+
+/* ----------------------------------------All document---------------------------------------------------------------- */
+.custom-link {
+  text-decoration: none;
+  color: var(--link-color);
+  margin: 1rem;
+}
+
+.all-content {
+  font-family: "Noto Sans Jp", sans-serif;
+  max-width: 1310px;
+  position: relative;
+}
+
+.cta {
+  background-color: var(--cta-bg-color);
+  color: var(--cta-txt-color);
+}
+
+/* ----------------------------------------Navbar---------------------------------------------------------------- */
+.custom-navbar {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-txt-color);
+}
+
+.menu {
+  color: var(--navbar-txt-color);
+  border: 1.5px solid var(--navbar-txt-color);
+}
+
+.navbar-logo {
+  min-width: 125px;
+}
+
+/* ----------------------------------------Hero Section---------------------------------------------------------------- */
+.hero-section {
+  margin-top: 0.5rem;
+  background-image: linear-gradient(to bottom, transparent 1%, #e5e5e5e5 50%, transparent 100%), url("../img/Hero-img.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 18rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  color: var(--hero-txt-color);
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  padding: 0.25rem 0 0.5rem;
+  font-weight: bold;
+}
+
+.hero-section h3 {
+  font-size: 1.25rem;
+  padding: 0.25rem 0 0.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.hero-section-cta {
+  background-color: var(--hero-btn-color);
+  color: var(--cta-txt-color);
+}
+
+/* ----------------------------------------How Section---------------------------------------------------------------- */
+.how-title {
+  font-size: 1.5rem;
+  color: var(--content-header-color);
+  font-weight: 500;
+}
+
+.how-section i {
+  color: var(--content-p-color);
+}
+
+.how-content-title {
+  color: var(--content-header-color);
+  font-size: 2rem;
+}
+
+.how-content-text {
+  color: var(--content-p-color);
+  font-size: 1rem;
+}
+
+.how-img {
+  background-image: url("../img/How-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* ----------------------------------------Testimonials Section---------------------------------------------------------------- */
+.testimonials {
+  background-color: var(--testimonials-bg);
+  color: white;
+}
+
+.testimonial-img-size {
+  height: 128px;
+  width: 128px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.testimonial-img-1 {
+  background-image: url("../img/Testimonial-1.jpeg");
+}
+
+.testimonial-img-2 {
+  background-image: url("../img/Testimonial-2.jpeg");
+}
+
+.testimonial-img-3 {
+  background-image: url("../img/Testimonial-3.jpeg");
+}
+
+.testimonial-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.testimonial-p {
+  line-height: 1.5rem;
+}
+
+.testimonials h2 {
+  font-size: 3rem;
+}
+
+/* ----------------------------------------Catch phrase effects---------------------------------------------------------------- */
+.phrase-section {
+  margin-top: 1rem;
+  background-image: linear-gradient(to bottom, transparent 1%, #000 100%), url("../img/Quote-img.jpg");
+  background-position: bottom;
+  background-size: cover;
+  min-height: 25rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  color: white;
+}
+
+.phrase-section h2 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.phrase-section h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+/* ----------------------------------------Value proposition---------------------------------------------------------------- */
+.vp-image {
+  height: 256px;
+  width: 100%;
+}
+
+.vp-title {
+  font-weight: 500;
+  color: var(--content-header-color);
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+
+.vp-content {
+  font-weight: 100;
+  color: var(--content-p-color);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* ----------------------------------------Footer section---------------------------------------------------------------- */
+.footer-icons {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer-icons i {
+  margin: 5px;
+  border: solid var(--footer-icons) 1px;
+  border-radius: 50%;
+  background-color: var(--footer-icons);
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 25%;
+  margin: 2rem auto;
+}
+
+.custom-footer {
+  background-color: var(--footer-bg);
+  color: #f8f8f8;
+  padding: 3rem;
+}
+
+/* ----------------------------------------Hovering effects---------------------------------------------------------------- */
+.custom-link:hover {
+  text-decoration: underline;
+  color: var(--hover-link-color);
+}
+
+.footer-icons i:hover {
+  background-color: transparent;
+  color: var(--link-color);
+}
+
+/* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .hero-section {
+    min-height: 20rem;
+  }
+
+  .footer-logo {
+    width: 10%;
+  }
+}
+
+/* ----------------------------------------Laptop media Query---------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .hero-section {
+    padding: 8rem 2rem 5rem;
+    min-height: 30rem;
+  }
+
+  .hero-section h1 {
+    font-size: 4rem;
+  }
+
+  .hero-section h3 {
+    font-size: 2rem;
+  }
+
+  .how-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------Directory Style--------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------Hero Section---------------------------------------------------------------- */
+.d-hero-section {
+  margin-top: 0.5rem;
+  background-image: url("../img/Directory-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 18rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  color: var(--hero-txt-color);
+}
+
+.d-hero-search-bar {
+  background-color: var(--d-hero-search-bg);
+}
+
+.search-section span {
+  position: absolute;
+  right: 26%;
+}
+
+.d-hero-section h2 {
+  font-size: 2rem;
+  padding: 0.25rem 0 0.5rem;
+  font-weight: bold;
+}
+
+.therapists-card-name {
+  font-size: 1.5rem;
+  color: var(--d-therapist-title);
+}
+
+.therapists-card-description {
+  line-height: 1.7rem;
+}
+
+/* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .d-hero-section {
+    min-height: 20rem;
+  }
+
+  .therapists-card-content {
+    margin-left: 2rem;
+  }
+}
+
+/* ----------------------------------------Laptop media Query---------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .d-hero-section {
+    padding: 8rem 2rem 5rem;
+    min-height: 30rem;
+  }
+
+  .d-hero-section h2 {
+    font-size: 4rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------Therapist Style--------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------Hero Section---------------------------------------------------------------- */
+.profile-header {
+  margin-top: 0.5rem;
+  min-height: 18rem;
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  color: var(--hero-txt-color);
+}
+
+.profile-header h1 {
+  font-size: 2rem;
+  padding: 0.25rem 0 0.5rem;
+  font-weight: 500;
+}
+
+/* ----------------------------------------Description Section---------------------------------------------------------------- */
+.therapist-info-experience,
+.therapist-info-header {
+  font-size: 2rem;
+  color: var(--therapist-description-header);
+  border-bottom: solid var(--therapist-description-header) 1px;
+  margin: 1rem 0 2rem 0;
+}
+
+.therapist-info-description {
+  font-size: 1rem;
+  color: var(--therapist-description-p);
+  margin: 3rem 0;
+}
+
+.therapist-info {
+  background-color: var(--therapist-description-container);
+}
+
+.therapist-info-experience {
+  font-size: 1.2rem;
+}
+
+.therapist-info-exp-list {
+  list-style: circle;
+}
+
+.therapist-comments {
+  line-height: 1.3rem;
+}
+
+/* ----------------------------------------Tablet media Query---------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .profile-header {
+    min-height: 20rem;
+  }
+
+  .therapists-card-content {
+    margin-left: 2rem;
+  }
+
+  .sticky-section {
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
+
+  .therapist-info-description {
+    margin: 3rem 3rem 3rem 0;
+  }
+
+  .therapist-info-header {
+    margin: 1rem 0 2rem 0;
+  }
+}
+
+/* ----------------------------------------Laptop media Query---------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .profile-header {
+    padding: 8rem 2rem 5rem;
+    min-height: 30rem;
+  }
+
+  .profile-header h1 {
+    font-size: 6rem;
+  }
+}

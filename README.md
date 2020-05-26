@@ -1,8 +1,12 @@
 # Project Name
 
-> Create an online directory for mental health therapists
+> Create an online directory of mental health therapists for Microverse Curriculum.
 
-<!-- ![screenshot](./app_screenshot.png) -->
+![screenshot](./img/app_screenshot0.png)
+
+![screenshot](./img/app_screenshot1.png)
+
+![screenshot](./img/app_screenshot2.png)
 
 As part of a business idea called Mind Click we want to create an online therapist directory for people to search for mental health specialist and book a session with them. 
 
@@ -12,9 +16,14 @@ As part of a business idea called Mind Click we want to create an online therapi
 - CSS,
 - Bootstrap V4.4
 
+## Video Presentation
+[See video here!](https://www.loom.com/share/852e4da24d9641c2b5ef98480563f829)
+
 ## Live Demo
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](https://raw.githack.com/santiagorodriguezbermudez/mindclickdirectory/develop/index.html)
+
+
 
 ## Getting Started
 
