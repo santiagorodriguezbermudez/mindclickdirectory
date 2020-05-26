@@ -1,22 +1,23 @@
 /* ----------------------------------------Document style variables---------------------------------------------------------------- */
 :root {
-  --link-color: #002984;
-  --hover-link-color: #fb9a00;
-  --navbar-txt-color: #002984;
-  --navbar-bg-color: #fff;
-  --cta-bg-color: #30b300;
-  --cta-txt-color: #fff;
-  --hero-txt-color: #002984;
-  --hero-btn-color: #118bfc;
-  --content-header-color: #118bfc;
-  --content-p-color: #462936;
-  --testimonials-bg: #118bfc;
-  --d-hero-search-bg: rgb(48, 179, 0, 0.4);
-  --d-therapist-title: #f94d03;
-  --footer-icons: #f9144e;
-  --therapist-description-header: #118bfc;
-  --therapist-description-p: #462936;
-  --therapist-description-container: rgb(48, 179, 0, 0.15);
+  --link-color: #f5dad4;
+  --hover-link-color: #509bd8;
+  --navbar-txt-color: #f5dad4;
+  --navbar-bg-color: #d55648;
+  --cta-bg-color: #cbccd2;
+  --cta-txt-color: #000;
+  --hero-txt-color: #000;
+  --hero-btn-color: #cbccd2;
+  --content-header-color: #e17e65;
+  --content-p-color: #d55648;
+  --testimonials-bg: #3f3f3f;
+  --d-hero-search-bg: #98a5a6;
+  --d-therapist-title: #e27f64;
+  --footer-icons: #509bd8;
+  --footer-bg: #000;
+  --therapist-description-header: #5098bd;
+  --therapist-description-p: #fff;
+  --therapist-description-container: #98a5a6;
 }
 
 /* ----------------------------------------All document---------------------------------------------------------------- */
@@ -195,7 +196,6 @@
   width: 70%;
   margin: auto;
   text-align: center;
-  color: #f8f8f8;
   padding: 15px;
 }
 
@@ -214,6 +214,12 @@
 .footer-logo {
   width: 25%;
   margin: 2rem auto;
+}
+
+.custom-footer {
+  background-color: var(--footer-bg);
+  color: #f8f8f8;
+  padding: 3rem;
 }
 
 /* ----------------------------------------Hovering effects---------------------------------------------------------------- */
